@@ -6,11 +6,9 @@ body {
   background-image: url('./images/rain.jpg');
   background-size: 100% 100vh;
   background-repeat: no-repeat;
-  
-
 }
 
-.search-bar-section {
+/*.search-bar-section {
   margin-left: 5%;
   margin-top: 20px;
   width: 500px;
@@ -30,7 +28,7 @@ body {
 
 .search-bar::placeholder {
   color: white;
-}
+}*/
 
 .weather-section {
   float: right;
