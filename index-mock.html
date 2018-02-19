@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>React Time</title>
+  <link rel="stylesheet" type="text/css" href="mock.css">
+</head>
+<body id="app">
+  <!-- <div id="app"></div> -->
+  <section class="search-bar-section">
+    <input type="search" class="search-bar" placeholder="Search for a new location">
+  </section>
+
+  <section class="weather-section">
+    <article class="current-weather">
+      <div class="top-section">
+        <div class="location">Denver, CO</div>
+        <div class="date">Feb 18</div>
+      </div>
+      <div class="middle-section">
+        <div class="current-temp">57°</div>
+        <div class="current-weather-icon"><img class="large-icon" src="./images/rainy-icon.svg"></div>
+      </div>
+      <div class="lower-section">
+        <div class="high-low-temps">68° / 28°</div>
+        <div class="written-current-weather">Rain</div>
+      </div>
+    </article>
+
+    <article class="seven-day-forcast">
+      <div class="extended-forcast">
+        Mon <span>Feb 19</span> <span ><img class="small-icon" src="./images/snow-icon.svg"></span> <span>36°</span> 18°
+      </div>
+      <div class="extended-forcast">
+        Tue <span>Feb 20</span> <span ><img class="small-icon" src="./images/snow-icon.svg"></span> <span>36°</span> 18°
+      </div>
+      <div class="extended-forcast">
+        Wed <span>Feb 21</span> <span ><img class="small-icon" src="./images/snow-icon.svg"></span> <span>36°</span> 18°
+      </div>
+      <div class="extended-forcast">
+        Thu <span>Feb 22</span> <span ><img class="small-icon" src="./images/snow-icon.svg"></span> <span>36°</span> 18°
+      </div>
+      <div class="extended-forcast">
+        Fri <span>Feb 23</span> <span ><img class="small-icon" src="./images/snow-icon.svg"></span> <span>36°</span> 18°
+      </div>            
+    </article>
+  </section>
+
+  <script src="main.bundle.js"></script>
+</body>
+</html>
