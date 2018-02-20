@@ -6,8 +6,14 @@
   background-repeat: no-repeat;*/
 }
 
+.left-section {
+  width: 65%;
+}
+
 .right-section {
+  /*position: fixed;*/
   float: right;
   margin: -50px 20px;
-  width: 450px;
+  width: 35%;
+  min-height: 100vh;
 }
