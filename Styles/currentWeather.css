@@ -40,3 +40,8 @@
   display: flex;
   justify-content: space-between;  
 }
+
+.summary-text {
+  font-size: 20px;
+  /*display: block; */
+}
