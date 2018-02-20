@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+apikey.js
 
 # Runtime data
 pids
