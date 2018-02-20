@@ -1,4 +1,4 @@
-export const Data = {
+export const data = {
   response: {
     version: '0.1',
     termsofService: 'http://www.wunderground.com/weather/api/d/terms.html',
@@ -2863,4 +2863,4 @@ export const Data = {
   ],
 };
 
-module.exports = Data;
+module.exports = data;
