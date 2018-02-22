@@ -1,7 +1,9 @@
 # Logs
 logs
 *.log
-apikey.js
+
+# misc
+lib/apikey.js
 
 # Runtime data
 pids
