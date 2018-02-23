@@ -1,7 +1,7 @@
 .current-weather {
   box-sizing: border-box;
   width: 100%;
-  height: 300px;
+  height: 320px;
   color: white;
   border: 1px solid black;
   opacity: .7;
