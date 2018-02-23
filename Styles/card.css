@@ -1,6 +1,59 @@
 .small-icon {
   height: 40px;
   width: 40px;
-  /*vertical-align: center;*/
+  position: relative;
+  top: -5px;
+  grid-column: 3 / 4;
 }
 
+.seven-hour-forecast {
+  display: grid;
+  grid-template-columns: 130px 180px 70px 30px;
+}
+
+.hour {
+  grid-column: 1 / 2;
+}
+
+.condition {
+  grid-column: 2 / 3;
+}
+
+.temp {
+  grid-column: 4 / 5;
+}
+
+.ten-day-forecast {
+  display: grid;
+  grid-template-columns: 80px 120px 90px 70px 30px;
+}
+
+.weekday {
+  grid-column: 1 / 2;
+
+}
+
+.date {
+  grid-column: 2 / 3;
+  color: grey;
+}
+
+.weather-icon {
+  grid-column: 3 / 4;
+}
+
+.high {
+  grid-column: 4 / 5;
+}
+
+.low {
+  grid-column: 5 / 6;
+}
+
+.small-icon-ten {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: -5px;
+  
+}
