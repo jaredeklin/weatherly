@@ -29,11 +29,11 @@
   width: 80px;
 }
 
-.small-icon {
+/*.small-icon {
   height: 40px;
   width: 40px;
-  /*vertical-align: center;*/
-}
+  vertical-align: center;
+}*/
 
 .lower-section {
   display: flex;

@@ -1,6 +1,25 @@
 .small-icon {
   height: 40px;
   width: 40px;
-  /*vertical-align: center;*/
+  position: relative;
+  top: -5px;
+  grid-column: 3 / 4;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: 130px 180px 70px 30px;
+}
+
+.hour {
+  grid-column: 1 / 2;
+}
+
+.condition {
+  grid-column: 2 / 3;
+}
+
+.temp {
+  grid-column: 4 / 5;
 }
 
