@@ -20,8 +20,7 @@ export const data = {
       state: 'KY',
       state_name: 'Kentucky',
       country: 'US',
-      country_iso3166: 'US',
-      zip: '40201',
+      country_iso3166: 'US',qqaqq 
       magic: '1',
       wmo: '99999',
       latitude: '38.25000000',
