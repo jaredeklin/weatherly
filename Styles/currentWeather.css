@@ -1,14 +1,14 @@
 .current-weather {
   box-sizing: border-box;
   width: 100%;
-  height: 300px;
+  height: auto;
   color: white;
   border: 1px solid black;
   opacity: .7;
   background-color: black;
   /*display: flex;*/
   font-size: 36px;
-  padding: 40px;
+  padding: 40px 40px 10px 40px;
 }
 
 .top-section {
@@ -29,11 +29,11 @@
   width: 80px;
 }
 
-.small-icon {
+/*.small-icon {
   height: 40px;
   width: 40px;
-  /*vertical-align: center;*/
-}
+  vertical-align: center;
+}*/
 
 .lower-section {
   display: flex;
