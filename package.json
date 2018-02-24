@@ -57,6 +57,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "@jared-eklin/complete-me": "git+https://github.com/jaredeklin/complete-me.git",
     "bindings": "^1.3.0",
     "node-sass": "^4.7.2"
   }
