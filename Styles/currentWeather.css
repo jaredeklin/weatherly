@@ -6,7 +6,6 @@
   border: 1px solid black;
   opacity: .7;
   background-color: black;
-  /*display: flex;*/
   font-size: 36px;
   padding: 40px 40px 10px 40px;
 }
@@ -29,12 +28,6 @@
   width: 80px;
 }
 
-/*.small-icon {
-  height: 40px;
-  width: 40px;
-  vertical-align: center;
-}*/
-
 .lower-section {
   display: flex;
   justify-content: space-between;  
@@ -42,5 +35,4 @@
 
 .summary-text {
   font-size: 20px;
-  /*display: block; */
 }
