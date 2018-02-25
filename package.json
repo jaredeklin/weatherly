@@ -19,7 +19,8 @@
       "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
     },
     "setupFiles": [
-      "./test/__test_helpers__/storageMock.js"
+
+      "./test/__test_helpers__/localStorageMock.js"
     ]
   },
   "author": "Steve Kinney",
