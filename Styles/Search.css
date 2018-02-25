@@ -6,16 +6,16 @@
 }
 
 .search-bar {
-  height: 50px;  
-  width: 80%;
+  height: 55px;  
+  width: 82%;
   padding-left: 2%;
   background-color: black;
   opacity: .7;
   color: white;
   font-size: 36px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   outline: none;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 
 
 }
