@@ -1,0 +1,17 @@
+.error {
+  background-color: black;
+  opacity: .8;
+  width: 80%;
+  font-size: 36px;
+  color: red;
+  margin-top: 25px;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.display-error {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  opacity: .8;
+}
