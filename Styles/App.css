@@ -1,6 +1,6 @@
 .App {
   display: grid;
-  grid-template-columns: 59% 39%;
+  grid-template-columns: 60% 40%;
   min-height: 100vh;
   width: 100%;
 }
