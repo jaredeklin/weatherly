@@ -15,10 +15,11 @@ describe('App', () => {
     expect(wrapper).toBeDefined();
   });
 
-  it('Should render the Search and CurrentWeather components', () => {
+  it('Should render the Search and Button components', () => {
     localStorage.setItem('location', 'Denver, CO')
     wrapper = mount(<App />)
     expect(wrapper.find('Search').length).toEqual(1);
+    // expect(wrapper.find('Button').length).toEqual(1);
   });
 
   it('Should render the Welcome component', () => {
