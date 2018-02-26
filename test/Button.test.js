@@ -1,18 +1,19 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 
-import SevenHour from '../lib/SevenHour';
+import Button from '../lib/Button';
 
-describe('SevenHour', () => {
+describe('Button', () => {
   let wrapper;
 
   beforeEach( () => {
     localStorage.clear();
-    wrapper = shallow(<SevenHour tenDayProps={jest.fn()}/>);
+    wrapper = shallow(<Button label="Click for 7-Hour Forecast" toggleWeatherForecast={jest.fn()}/>);
   });
 
   it('should exist', () => {
+    wrapper.debug()
     expect(wrapper).toBeDefined();
-  });
+  });  
   
 });

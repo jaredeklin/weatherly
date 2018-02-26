@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import App from '../lib/App';
+require('fbjs/lib/ExecutionEnvironment').canUseDOM = true;
 
 describe('App', () => {
   let wrapper;
@@ -15,7 +16,7 @@ describe('App', () => {
     expect(wrapper).toBeDefined();
   });
 
-  it('Should render the Search and CurrentWeather components', () => {
+  it('Should render the Search component', () => {
     localStorage.setItem('location', 'Denver, CO')
     wrapper = mount(<App />)
     expect(wrapper.find('Search').length).toEqual(1);
@@ -35,8 +36,16 @@ describe('App', () => {
       });
   });
 
-  // it('should set the state of our location', () => {
-  //   wrapper.instance().setLocation('denver')
-  //   expect(wrapper.state('location')).toEqual( 'denver' );
-  // });
+  it('should test a conditional before mount', () => {
+    localStorage.setItem('location', undefined)
+    wrapper = mount(<App />)
+    wrapper.debug()
+
+    expect(wrapper.state()).toEqual({
+        tenDayToggle: true, 
+        city: undefined, 
+        errorPresent: false
+      });
+  })
+
 });
