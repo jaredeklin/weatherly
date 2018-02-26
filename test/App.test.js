@@ -16,6 +16,7 @@ describe('App', () => {
     expect(wrapper).toBeDefined();
   });
 
+
   it('Should render the Search component', () => {
     localStorage.setItem('location', 'Denver, CO')
     wrapper = mount(<App />)
