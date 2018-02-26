@@ -16,3 +16,12 @@
 .search-bar::placeholder {
   color: white;
 }
+
+@media (max-width: 600px) {
+  .search-bar {
+    width: 100%;
+    font-size: 24px;
+    background-size: 24px;
+    padding-left: 40px;
+  }
+}
