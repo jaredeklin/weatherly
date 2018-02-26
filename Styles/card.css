@@ -8,7 +8,7 @@
 
 .seven-hour-forecast {
   display: grid;
-  grid-template-columns: 130px 180px 70px 30px;
+  grid-template-columns: 30% 47% 15% 8%;
 }
 
 .hour {
@@ -25,12 +25,11 @@
 
 .ten-day-forecast {
   display: grid;
-  grid-template-columns: 80px 120px 90px 70px 30px;
+  grid-template-columns: 18% 32% 25% 15% 10%;
 }
 
 .weekday {
   grid-column: 1 / 2;
-
 }
 
 .date {
