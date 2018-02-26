@@ -36,3 +36,9 @@
 .summary-text {
   font-size: 20px;
 }
+
+@media (max-width: 600px) {
+  .current-weather {
+    padding: 5px;
+  }
+}

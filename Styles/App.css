@@ -17,3 +17,23 @@
   max-height: 96vh;
   overflow: auto;
 }
+
+
+@media (max-width: 600px) {
+
+  .App {
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 400px auto;
+  }
+  .left-section {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 5px;
+  }
+
+  .right-section {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    padding: 5px;
+  }
+}
