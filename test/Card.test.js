@@ -52,7 +52,6 @@ describe('Card', () => {
     expect(wrapper.find('.temp').text()).toEqual("26°");
   });
 
-
   it('should return a div with the class name ten-day-forecast', () => {
     wrapper = shallow(<Card day={tenDay} />);
     expect(wrapper.find('.ten-day-forecast').length).toEqual(1)
@@ -97,7 +96,5 @@ describe('Card', () => {
     wrapper = shallow(<Card day={tenDay} />);
     expect(wrapper.find('.low').text()).toEqual('0°');
   });
-
-
 
 })
