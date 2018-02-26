@@ -1,21 +1,19 @@
 .App {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 59% 39%;
   min-height: 100vh;
   width: 100%;
 }
 
 .left-section {
   grid-column: 1 / 2;
-  padding-top: 20px
+  padding: 20px 0 0 20px;
+  max-height: 96vh;
 }
 
 .right-section {
   grid-column: 2 / 3;
-  padding-top: 20px;
-  /*margin: -50px 20px;*/
-  width: 450px;
-  min-height: 100vh;
+  padding: 20px 20px 0 0;
+  max-height: 96vh;
   overflow: auto;
-  max-height: 100vh;
 }

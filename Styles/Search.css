@@ -1,23 +1,16 @@
-.search-bar-section {
-  /*margin-left: 5%;*/
-  /*margin: 20px auto ;*/
-  /*width: 100%;*/
-
-}
-
 .search-bar {
   height: 55px;  
-  width: 82%;
-  padding-left: 2%;
+  width: 90%;
+  padding-left: 55px;
   background-color: black;
   opacity: .7;
   color: white;
   font-size: 36px;
-  /*border: 1px solid black;*/
   outline: none;
-  /*margin-top: 20px;*/
-
-
+  background-image: url('../images/search.svg');
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: 10px;
 }
 
 .search-bar::placeholder {
