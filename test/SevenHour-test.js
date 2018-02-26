@@ -1,5 +1,18 @@
-import { expect } from 'chai';
-import SevenHour from '../lib/SevenHour'
+import React from 'react';
+import { shallow, mount } from 'enzyme';
 
-describe('Example Test File', () => {
-})
+import SevenHour from '../lib/SevenHour';
+
+describe('SevenHour', () => {
+  let wrapper;
+
+  beforeEach( () => {
+    localStorage.clear();
+    wrapper = shallow(<SevenHour tenDayProps={jest.fn()}/>);
+  });
+
+  it('should exist', () => {
+    expect(wrapper).toBeDefined();
+  });
+  
+});
