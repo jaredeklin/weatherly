@@ -35,5 +35,6 @@
     grid-column: 1;
     grid-row: 2 / 4;
     padding: 5px;
+    max-height: 87vh;
   }
 }
