@@ -1,1 +1,1 @@
-![alt text](https://github.com/jaredeklin/weatherly/screenshots/Wireframe.png "Wireframe pre-project")
+![alt text](https://github.com/jaredeklin/weatherly/blob/master/screenshots/Wireframe.png "Wireframe pre-project")
