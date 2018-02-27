@@ -38,8 +38,8 @@ h1 {
   text-align: center;
 }
 
-p {
-  visibility: none;
+.welcome-screen p {
+  display: none;
 }
 
 @media (max-width: 600px) {
@@ -59,10 +59,9 @@ p {
   }
 
   .welcome-screen p {
-    visibility: unset;
+    display: unset;
     width: 70%;
     margin: 20px auto;
     font-size: 20px;
   }
-
 }
