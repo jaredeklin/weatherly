@@ -8,7 +8,7 @@
 
 .seven-hour-forecast {
   display: grid;
-  grid-template-columns: 30% 47% 15% 8%;
+  grid-template-columns: 33% 44% 15% 8%;
 }
 
 .hour {
@@ -54,4 +54,56 @@
   width: 40px;
   position: relative;
   top: -5px;
+}
+
+@media (max-width: 600px) {
+  .ten-day-forecast {
+    display: grid;
+    grid-template-columns: 38% 25% 22% 15%;
+    padding-left: 5px;
+  }
+
+  .weekday {
+    display: none;
+  }
+
+  .date {
+    grid-column: 1 ;
+    color: white;
+  }
+
+  .weather-icon {
+    grid-column: 2;
+  }
+
+  .high {
+    grid-column: 3;
+  }
+
+  .low {
+    grid-column: 4;
+  }
+
+  .seven-hour-forecast {
+    display: grid;
+    grid-template-columns: 55% 30% 15%;
+    padding: 0 20px
+  } 
+
+  .hour {
+    grid-column: 1 / 2;
+  }
+
+  .condition {
+    display: none;
+  }
+
+  .temp {
+    grid-column: 3;
+  }  
+
+  .small-icon {
+    grid-column: 2;
+  }
+
 }
