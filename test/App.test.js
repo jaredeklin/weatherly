@@ -7,7 +7,6 @@ describe('App', () => {
   let wrapper;
 
   beforeEach(() => {
-    // localStorage.clear();
     wrapper = shallow(<App />);
   });
 
