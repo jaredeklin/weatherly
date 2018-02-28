@@ -26,6 +26,38 @@ describe('Search', () => {
     expect(wrapper.props().getLocation).toHaveBeenCalledTimes(1);
   });
 
+
+  it('should call submit and update state on enter', () => {
+
+    wrapper.instance().submit = jest.fn();
+
+    const locationInput = wrapper.find('input');
+
+    locationInput.simulate('change', { target: {value: 'Denver, CO'}})
+    wrapper.find('input').simulate('keyDown', {keyCode: 13});
+
+    expect(wrapper.instance().submit).toHaveBeenCalled();
+
+    expect(wrapper.state()).toEqual(
+       {  location: 'Denver, CO', 
+          suggestions: [ 'Denver, CO' ] 
+        })
+  })
+
+  it('should give suggestions based on input', () => {
+
+    const locationInput = wrapper.find('input');
+
+    locationInput.simulate('change', { target: {value: 'Ber'}})
+
+    expect(wrapper.find('option').length).toEqual(2)
+    expect(wrapper.state()).toEqual(
+      { location: 'Ber', 
+        suggestions: [ 'Berkeley, CA', 'Berwyn, IL' ] 
+      })
+  })
+
+
   it('should have an empty state to start', () => {
 
     expect(wrapper.state().location).toEqual('')
